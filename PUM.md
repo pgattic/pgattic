@@ -3,15 +3,14 @@
 ## My Style
 
 - I love to try out new ways of doing things
-- I dislike making generalizations about myself (stuff like "oh, I am just such a logical, methodical person"), and for that reason, this "Manual" was very difficult for me to write. So if you want to compliment me, say something about something I did or have, not about who I am. 
+- I dislike making generalizations about myself (stuff like "oh, I am just such a logical, methodical person"). So if you want to compliment me, say something about something I did or have, not about who I am. 
 - I want to work with people that have something in common with me. At least something small that we can relate to. 
 - I want to teach others while I am with them. I want them to have learned something new. 
 
 ## My Values
 
-- I do not do inappropriate humor. 
-- I am a firm believer that anything and everything can be fun! 
-- All 
+- I firmly believe that I am a child of God, and that His love me is greater than I can even imagine ([Romans 8:14-16](https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng&id=p38-p39#p38)). I believe that He sent His son, Jesus Christ, to die for me, so that through that sacrifice I can overcome any trial ([Helaman 5:12](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12)).
+- I am also a firm believer that anything and everything can be fun! 
 
 ## When to Approach Me
 
@@ -35,33 +34,11 @@
 
 ## How to Help Me
 
-- I usually don't know the basics of things but know more advanced stuff better. Thus, I am usually confused in classroom settings. 
+- I usually do most things on my own so that is what I am used to most, but I am very open to any kind of collaboration. 
 
-2. Take no more than an hour to answer the following questions with the first thing that comes to mind:
-What is your style?
-What do you value?
-When is the best time to approach you?
-How do you like people to communicate with you?
-How do you make decisions?
-What do people misunderstand about me?
-How can people help you?
- 
+## Other things about me
 
-3. Take another hour or so and add some depth to round it out. Refer to the results of the personality test you completed in preparation for this lesson. Pay special attention to the strengths and weaknesses and work habits explanations of your results.
+- I love to play games like Pokémon, Super Mario, and Minecraft. I also have gone into ROM hacking for Pokémon and Mario games in the past just as a hobby. 
+- I like to play the guitar!
+- Learn more about me [here](https://pgattic.github.io/about-me)!
 
-
-4. Translate your answers to the above questions into a user manual similar to the examples you reviewed. Note, You may format your document in whatever way seems attractive to you as long as it conforms to the following minimum requirements.
-
-The title should be your name.
-The following sections are included:
-My style
-My Values
-When to approach me
-How best to communicate with me
-How I make decisions
-What people misunderstand about me
-How to help me
-Is written in paragraph form or using bulleted lists
-Is between one and three pages in length
-
-5. Submit your completed user manual here.
