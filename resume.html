@@ -1,160 +1,165 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Preston Corless</title>
-        <meta charset="utf-8">
-        <link rel="icon" type="image/x-icon" href="me-icon.png">
-        <style>
+  <head>
+    <title>Preston Corless</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="me-icon.png">
+    <style>
 
 :root {
-    --h2-text-size: 1.3em;
-    --text-size: 0.95em;
-    --sub-text-size: 0.95em;
+  --table-header-text-size: 1.2em;
+  --h2-text-size: 1.2em;
+  --h3-text-size: 1.1em;
+  --text-size: 0.95em;
+  --sub-text-size: 0.95em;
 }
 
 body {
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 0;
-    font-family: "Times New Roman";
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Times New Roman";
 }
 
 h1 {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 h2 {
-    margin: 0;
-    font-size: var(--h2-text-size)
+  margin: 0;
+  font-size: var(--h2-text-size)
+}
+
+h3 {
+  margin: 0;
+  font-size: var(--h3-text-size)
 }
 
 p {
-    margin: 0.5em 0 0.25em;
-    font-size: var(--text-size);
+  margin: 0.5em 0 0.25em;
+  font-size: var(--text-size);
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 hr {
-    border: 0.5px solid #000;
-    margin: 6px 0;
+  border: 0.5px solid #000;
+  margin: 6px 0;
 }
 
 ul {
-    margin: 0.25em 0 0.5em;
-    padding-left: 30px;
-    font-size: var(--sub-text-size);
+  margin: 0.25em 0 0.5em;
+  padding-left: 30px;
+  font-size: var(--sub-text-size);
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    margin: 12px 0;
+#contact {
+  text-align: center;
+  margin: 0.2em;
 }
 
-td, th {
-    border: 1px solid #000;
-    padding: 0.5em;
-    font-size: var(--text-size);
+section {
+  p {
+    font-weight: bold;
+    .date {
+      font-weight: normal;
+      float: right;
+      padding-left: 0.8em;
+    }
+  }
 }
 
-.contact {
-    text-align: center;
-}
+    </style>
+  </head>
 
-.date {
-    float: right;
-    padding-left: var(--text-size);
-}
+  <body>
 
-        </style>
-    </head>
-    <body>
-        <h1>Preston G. Corless</h1>
-        <hr>
-        <p class="contact">(586) 290-8781 | <a href="mailto:pgattic@gmail.com">pgattic@gmail.com</a> | <a href="https://linkedin.com/in/pgattic">linkedin.com/in/pgattic</a></p>
-        <table>
-            <tr>
-                <th>Professional Experience</th>
-                <th>Personal Project Experience</th>
-                <th>Educational Experience</th>
-            </tr>
-            <tr>
-                <td>
-                    <b>Languages:</b> Kotlin<br>
-                    <b>Technologies:</b> Android Studio, Git, Jetpack Compose
-                </td>
-                <td>
-                    <b>Languages:</b> 6502 Assembly, C, Dart, HTML5, JavaScript, Python<br>
-                    <b>Technologies:</b> Flutter, Linux, Vim
-                </td>
-                <td>
-                    <b>Languages:</b> C#, Clojure, Erlang, SQL
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <article>
-            <h2>Education</h2>
-            <section>
-                <p><span class="date">June 2022 - Present</span>Bachelor's in Computer Science, Minor in Physics | Brigham Young University - Idaho | Rexburg, Idaho</p>
-                <ul>
-                    <li>1st place in BYU-Idaho's Fall 2022 Hackathon during freshman year</li>
-                    <li>1st place in <a href="https://byuihack.org/">BYU-Idaho's Fall 2023 Hackathon</a> (sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others), also winning its "Best Use of Google Cloud" award</li>
-                    <li>Member of BYU-Idaho's Computing Society presidency since Fall 2023</li>
-                </ul>
-            </section>
-            <section>
-                <p><span class="date">September 2015 - June 2020</span>International Baccalaureate Diploma | International Academy of Macomb | Macomb, Michigan</p>
-                <ul>
-                    <li>Contributed to a variety of clubs, including the Coding Club and the Political Science Club</li>
-                    <li>1460 on the SAT, including an 800 (perfect score) on the math portion</li>
-                    <li>Took HL and Honors classes including English, Spanish, Biology, and Physics</li>
-                </ul>
-            </section>
-        </article>
-        <hr>
-        <article>
-            <h2>Work Experience</h2>
-            <section>
-                <p><span class="date">January 2023 - April 2023</span>Software Developer Intern | <i>Church of Jesus Christ of Latter-Day Saints (ICS Department)</i><!-- | Riverton, Utah --></p>
-                <ul>
-                    <li>Led the WhatsApp integration efforts for the Area Book Android missionary app (now titled "Preach My Gospel")</li>
-                    <li>Provided unique insight and valuable feedback into the mechanics of missionary work with regard to the Area Book app (only returned missionary on the team who used the app)</li>
-                    <li>Gained proficiency in Kotlin Language and Object Oriented Programming on the job</li>
-                </ul>
-            </section>
-            <section>
-                <p><span class="date">July 2022 - January 2023</span>Social Media Specialist | <i>Bonneville Meats</i><!-- | Roy, Utah--> | Meat Wholesaler</p>
-                <ul>
-                    <li>Revived the Facebook page and began frequent posting schedule to allow for more outreach and community attention of the business</li>
-                    <li>Consulted on the company's web site design, resulting in significant SEO improvements, including a 30-point increase in Google PageSpeed Insights score</li>
-                </ul>
-            </section>
-            <section>
-                <p><span class="date">July 2018 - March 2020</span>Recreational Gymnastics Instructor | <i>Cutting Edge Athletics</i><!-- | Clinton Township, Michigan--> | Gymnastics Facility</p>
-                <ul>
-                    <li>Coached kids from ages 5 to 11 in recreational gymnastics</li>
-                    <li>Consulted on the design for the company's web site</li>
-                </ul>
-            </section>
-        </article>
-        <hr>
-        <article>
-            <h2>Extra-Curricular Activities</h2>
-            <ul>
-                <li>Served a two-year mission for the Church of Jesus Christ of Latter-Day Saints, one year in Colorado Springs and one year in El Salvador
-                <li>Volunteered in three hurricane/flood cleanup efforts: Hurricane Harvey (Houston, Texas) and Hurricane Florence (Wilmington North Carolina), dam flooding in Midland Michigan</li>
-                <li>Led a Winter Clothing distribution project hosted by local church (giving 10K+ lbs. of clothing to those in need in the Detroit area), participated in four others</li>
-                <li>Organized an annual neighborhood Earth Day cleanup event</li>
-                <li>President of mens' organization through my community religious organization</li>
-            </ul>
-        </article>
-    </body>
+    <h1>Preston G. Corless</h1>
+    <p id="contact">(586) 290-8781 | <a href="mailto:pgattic@gmail.com">pgattic@gmail.com</a> | <a href="https://github.com/pgattic">github.com/pgattic</a></p>
+
+    <hr>
+
+    <article>
+      <h2>Experience</h2>
+      <ul>
+        <li><b>Computer Languages:</b> Bash, C#, C/C++, Clojure, Dart, Erlang, Golang, HTML5/CSS, JavaScript, Kotlin, Lua, MOS 6502 Assembly, Python, Rust, SQL</li>
+        <li><b>Technologies:</b> Android Studio, Arduino, Command line, Docker/containerization, Git, GitHub, Flutter, Jetpack Compose, JSON, Linux, Protobuf, Shell scripting, Unix, Vim</li>
+      </ul>
+    </article>
+
+    <hr>
+
+    <article>
+      <h2>Education</h2>
+      <section>
+        <p><span class="date">July 2022 - July 2025</span>Bachelor's in Computer Science, Minor in Physics | Brigham Young University - Idaho | Rexburg, Idaho</p>
+        <ul>
+          <li>1st place in BYU-Idaho's Fall 2022 Hackathon during freshman year</li>
+          <li>1st place in <a href="https://byuihack.org/">BYU-Idaho's Fall 2023 Hackathon</a> (sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others), also winning its "Best Use of Google Cloud" award</li>
+        </ul>
+      </section>
+      <section>
+        <p><span class="date">September 2015 - June 2020</span>International Baccalaureate Diploma | International Academy of Macomb | Macomb, Michigan</p>
+        <ul>
+          <li>1460 on the SAT, including an 800 (perfect score) on the math portion</li>
+          <li>Took HL and Honors classes including English, Spanish, Biology, and Physics</li>
+        </ul>
+      </section>
+    </article>
+
+    <hr>
+
+    <article>
+      <h2>Work Experience</h2>
+      <section>
+        <p><span class="date">January 2023 - April 2023</span>Software Developer Intern | <i>Church of Jesus Christ of Latter-Day Saints (ICS Department)</i><!-- | Riverton, Utah --></p>
+        <ul>
+          <li>Fully integrated WhatsApp into the end user application, using its public APIs.</li>
+          <li>Technologies: Android Studio, Jetpack Compose, Kotlin</li>
+        </ul>
+      </section>
+      <section>
+        <p><span class="date">July 2022 - January 2023</span>Social Media Specialist | <i>Bonneville Meats</i><!-- | Roy, Utah--> | Meat Wholesaler</p>
+        <ul>
+          <li>Revived the Facebook page and began frequent posting schedule to allow for more outreach and community attention of the business</li>
+          <li>Consulted on the company's web site design, resulting in significant Search Engine Optimisations, including a 30-point increase in Google Lighthouse score</li>
+        </ul>
+      </section>
+      <section>
+        <p><span class="date">July 2018 - March 2020</span>Recreational Gymnastics Instructor | <i>Cutting Edge Athletics</i><!-- | Clinton Township, Michigan--> | Gymnastics Facility</p>
+        <ul>
+          <li>Coached kids from ages 5 to 11 in recreational gymnastics, and helped them reach their goals</li>
+        </ul>
+      </section>
+    </article>
+
+    <hr>
+
+    <article>
+      <h2>Extra-Curricular Activities</h2>
+      <h3>Personal Projects</h3>
+      <ul>
+        <li><b>PxStream</b>, a photo file format that uses fractal-based logic for compression</li>
+        <li><b>Kronch</b>, an accurate CHIP-8 emulator written in C <small><i>(https://github.com/pgattic/kronch)</i></small></li>
+        <li><b>Cairn</b>: Created a stack-based programming language written in Rust <small><i>(https://github.com/pgattic/cairn)</i></small></li>
+        <li><b>Canon</b> and <b>Marks</b>, a book referencer and annotation manager written in Go <small><i>(https://github.com/pgattic/canon)</i></small></li>
+      </ul>
+      <h3>Service</h3>
+      <ul>
+        <li>Co-founder and President of BYU-Idaho's Computing Society</li>
+        <li>Served a two-year mission for the Church of Jesus Christ of Latter-Day Saints, one year in Colorado Springs and one year in El Salvador
+        <li>Volunteered in three hurricane/flood cleanup efforts: Hurricane Harvey (Houston, Texas), Hurricane Florence (Wilmington, North Carolina), and dam flooding in Midland, Michigan</li>
+        <li>Led a Winter Clothing distribution project hosted by local church (giving 10K+ lbs. of clothing to those in need in the Detroit area), participated in four others</li>
+        <li>Organized an annual neighborhood Earth Day cleanup event</li>
+        <li>Served in the presidency of my community religious organization</li>
+      </ul>
+    </article>
+    <img src="qr.png" width="200">
+    <p>https://github.com/pgattic</p>
+  </body>
 </html>
 
