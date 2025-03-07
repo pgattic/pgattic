@@ -60,10 +60,12 @@ sup {
 }
 
 table {
+  width: 100%;
   font-size: var(--sub-text-size);
-  td {
+  border-collapse: collapse;
+  th, td {
+    text-align: left;
     vertical-align: top;
-    padding: 0;
   }
   tr > td:nth-child(1) {
     /*width: 180px;*/
@@ -109,7 +111,7 @@ div {
           <td>Bash (Shell Scripting), JavaScript, Lua, Python</td>
         </tr>
         <tr>
-          <td>Qualifications:</td>
+          <td>Certifications:</td>
           <td>CompTIA Security+ SY0-701</td>
         </tr>
         <tr>
@@ -122,7 +124,7 @@ div {
         </tr>
         <tr>
           <td>Other Technologies:</td>
-          <td>Command Line, Flutter, Git, Jetpack Compose, Linux, Terraform, Unix</td>
+          <td>Command Line, Docker, Flutter, Git, Jetpack Compose, Linux, Terraform, Unix</td>
         </tr>
         <tr>
           <td>Spoken Languages:</td>
@@ -140,11 +142,11 @@ div {
     <section>
       <h2>Education</h2>
       <div>
-        <p><span class="date">Jul. 2022&ndash;Jul. 2025</span>B.S. in Computer Science | <i>Brigham Young University&ndash;Idaho</i> | Rexburg, Idaho | 3.92 GPA</p>
+        <p><span class="date">Jul. 2022&ndash;Apr. 2025</span>B.S. in Computer Science | <i>Brigham Young University&ndash;Idaho</i> | Rexburg, Idaho | 3.92 GPA</p>
         <ul>
           <li>Co-founded and served as President of BYU&ndash;Idaho's Computing Society, helped bring attendance up to 200+ people</li>
-          <li>Won 1<sup>st</sup> place in BYU&ndash;Idaho's Fall 2022 Multi-University Hackathon during freshman year</li>
-          <li>Won 1<sup>st</sup> place in <a href="https://byuihack.org/">BYU&ndash;Idaho's Fall 2023 Multi-University Hackathon</a> (sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others), also winning its "Best Use of Google Cloud" award</li>
+          <li>Returned to the Computing Society twice as a guest speaker</li>
+          <li>Won 1<sup>st</sup> place in two hackathons; BYU&ndash;Idaho's Fall 2022 Hackathon, and a <a href="https://byuihack.org/">multi-university hackathon</a> sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others</li>
         </ul>
       </div>
     </section>
@@ -160,14 +162,14 @@ div {
       <!--  </ul>-->
       <!--</div>-->
       <div>
-        <p><span class="date">Jan. 2024&ndash;Apr. 2025</span>Student Peer Advisor | <i>Brigham Young University-Idaho</i> | Rexburg, Idaho</p>
+        <p><span class="date">Jan. 2024&ndash;Apr. 2025</span>Paid Student Peer Advisor | <i>Brigham Young University-Idaho</i> | Rexburg, Idaho</p>
         <ul>
           <li>Helped dozens of students bolster their resumes and portfolios, and gave invaluable networking advice and assistance</li>
           <li>Recommended 2 students to recruiters, getting them their first internships</li>
         </ul>
       </div>
       <div>
-        <p><span class="date">Sept. 2023&ndash;Apr. 2024</span>Teaching Assistant (ECEN 106) | <i>Brigham Young University-Idaho</i> | Rexburg, Idaho</p>
+        <p><span class="date">Sept. 2023&ndash;Apr. 2024</span>Paid Teaching Assistant (ECEN 106) | <i>Brigham Young University-Idaho</i> | Rexburg, Idaho</p>
         <ul>
           <li>Guided students through coursework pertaining to computer systems and low-level programming</li>
           <li>Facilitated weekly lab exercises in embedded systems</li>
@@ -213,15 +215,40 @@ div {
     <section>
       <h2>Extra-Curricular Activities</h2>
       <div>
-        <p>Personal Projects</p>
-        <ul>
-          <li>Learned about assembly language in making Super Rex Dash, a modification of the original Super Mario Bros. game</li>
-          <li>Acquired mobile development skills in creation of Yeet Ball, a game written in JavaScript and built using Apache Cordova</li>
-          <li>Learned about data compression and file format development developing PxStream, a fractal-inspired photo file format<!-- <small><i>(https://github.com/pgattic/pxstream)</i></small>--></li>
-          <li>Learned about memory management and hardware virtualization creating Kronch, an accurate CHIP&ndash;8 emulator written in C<!-- <small><i>(https://github.com/pgattic/kronch)</i></small>--></li>
-          <li>Obtained proficiency in Rust and optimization principles developing Cairn, a stack-based programming language<!-- <small><i>(https://github.com/pgattic/cairn)</i></small>--></li>
-          <li>Gained skills in standard input/output piping through creating Canon and Marks, a command-line scripture reference tool and annotation manager written in Go<!-- <small><i>(https://github.com/pgattic/canon)</i></small>--></li>
-        </ul>
+        <table>
+          <tr>
+            <th>Personal Projects</th>
+            <th>Learning Outcomes</th>
+          </tr>
+          <tr>
+            <td>Nintendo DS port of WebAssembly runtime</td>
+            <td>Embedded Systems, Containerization, Virtualization</td>
+          </tr>
+          <tr>
+            <td>Canon, command-line scripture reference tool</td>
+            <td>Golang, Standard Input/Output Piping</td>
+          </tr>
+          <tr>
+            <td>Cairn, a stack-based programming language</td>
+            <td>Rust Language, Low-Level Optimizations</td>
+          </tr>
+          <tr>
+            <td>Accurate CHIP&ndash;8 emulator</td>
+            <td>Hardware Virtualization, Memory Management</td>
+          </tr>
+          <tr>
+            <td>PxStream, a fractal-inspired photo file format</td>
+            <td>C language, Data Compression</td>
+          </tr>
+          <tr>
+            <td>Yeet Ball, a mobile game made with Apache Cordova</td>
+            <td>JavaScript, Mobile Development</td>
+          </tr>
+          <tr>
+            <td>Super Rex Dash, a mod of Super Mario Bros.</td>
+            <td>Assembly Language, Binary Patching</td>
+          </tr>
+        </table>
       </div>
       <div>
         <p>Service</p>
