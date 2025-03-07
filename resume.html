@@ -7,10 +7,10 @@
     <style>
 
 :root {
-  --h2-text-size: 1.2em;
-  --h3-text-size: 1.1em;
-  --text-size: 0.9em;
-  --sub-text-size: 0.85em;
+  --h1-text-size: 24pt;
+  --h2-text-size: 14pt;
+  --text-size: 11pt;
+  --sub-text-size: 10.5pt;
 }
 
 body {
@@ -18,13 +18,21 @@ body {
   max-height: 10in;
   margin: 0 auto;
   padding: 0;
+}
+
+* {
   font-family: "Times New Roman";
 }
 
 h1 {
   font-weight: bold;
+  font-size: var(--h1-text-size);
   text-align: center;
   margin: 0;
+}
+
+#contact {
+  text-align: center;
 }
 
 h2 {
@@ -35,7 +43,7 @@ h2 {
 }
 
 p {
-  margin: 0.25em 0;
+  margin: 3px 0;
   font-size: var(--text-size);
 }
 
@@ -51,7 +59,7 @@ hr {
 
 ul {
   margin: 0;
-  padding-left: 30px;
+  padding-left: 25px;
   font-size: var(--sub-text-size);
 }
 
@@ -61,21 +69,12 @@ sup {
 
 table {
   width: 100%;
-  font-size: var(--sub-text-size);
   border-collapse: collapse;
   th, td {
+    font-size: var(--sub-text-size);
     text-align: left;
     vertical-align: top;
   }
-  tr > td:nth-child(1) {
-    /*width: 180px;*/
-    padding-right: 5px;
-  }
-}
-
-#contact {
-  text-align: center;
-  margin: 0.2em;
 }
 
 div {
@@ -83,8 +82,9 @@ div {
     font-weight: bold;
     .date {
       font-weight: normal;
+      font-size: var(--text-size);
       float: right;
-      padding-left: 0.5em;
+      padding-left: 6px;
     }
   }
 }
@@ -142,11 +142,11 @@ div {
     <section>
       <h2>Education</h2>
       <div>
-        <p><span class="date">Jul. 2022&ndash;Apr. 2025</span>B.S. in Computer Science | <i>Brigham Young University&ndash;Idaho</i> | Rexburg, Idaho | 3.92 GPA</p>
+        <p><span class="date">Jul. 2022&ndash;Apr. 2025</span>B.S. in Computer Science | <i>Brigham Young University&ndash;Idaho</i> | Rexburg, Idaho | 3.94 GPA</p>
         <ul>
           <li>Co-founded and served as President of BYU&ndash;Idaho's Computing Society, helped bring attendance up to 200+ people</li>
           <li>Returned to the Computing Society twice as a guest speaker</li>
-          <li>Won 1<sup>st</sup> place in two hackathons; BYU&ndash;Idaho's Fall 2022 Hackathon, and a <a href="https://byuihack.org/">multi-university hackathon</a> sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others</li>
+          <li>Won 1<sup>st</sup> place in two hackathons; BYU&ndash;Idaho's Fall 2022 Hackathon, and a Fall 2023 <a href="https://byuihack.org/">multi-university hackathon</a> sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others</li>
         </ul>
       </div>
     </section>
@@ -176,7 +176,7 @@ div {
         </ul>
       </div>
       <div>
-        <p><span class="date">Jan. 2023&ndash;Apr. 2023</span>Software Developer Intern | <i>Church of Jesus Christ of Latter-Day Saints (ICS Department)</i><!-- | Riverton, Utah--></p>
+        <p><span class="date">Jan. 2023&ndash;Apr. 2023</span>Android Developer Intern | <i>Church of Jesus Christ of Latter-Day Saints (ICS Department)</i><!-- | Riverton, Utah--></p>
         <ul>
           <li>Increased contacting productivity by 15% for application end-user base of over 50,000 by introducing and implementing new WhatsApp-related features, leveraging WhatsApp's public APIs</li>
           <!--<li>Innovated and led the development of a new app feature that integrated WhatsApp communication by learning Kotlin, enhancing the user experience and boosting customer engagement by 15%, making the app more versatile and user-friendly in supporting real-time communication</li>-->
@@ -222,7 +222,7 @@ div {
           </tr>
           <tr>
             <td>Nintendo DS port of WebAssembly runtime</td>
-            <td>Embedded Systems, Containerization, Virtualization</td>
+            <td>Embedded Systems, Containerization, Foreign Function Interface (FFI)</td>
           </tr>
           <tr>
             <td>Canon, command-line scripture reference tool</td>
@@ -246,7 +246,7 @@ div {
           </tr>
           <tr>
             <td>Super Rex Dash, a mod of Super Mario Bros.</td>
-            <td>Assembly Language, Binary Patching</td>
+            <td>6502 Assembly Language, Binary Patching</td>
           </tr>
         </table>
       </div>
