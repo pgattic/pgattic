@@ -1,16 +1,12 @@
-# Hello!
-
-I am Preston Corless! I code for fun!
 
 ![My Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=pgattic&layout=compact&theme=dark&exclude_repo=smb1-disasm)
 
+- Member of the Church of Jesus Christ of Latter-Day Saints, humbly trying to [come unto Him](https://comeuntochrist.org).
+- Eagle Scout
+- Passionate about Rust, Linux, WebAssembly, and Programming Language Theory
+- B.S. in Computer Science from BYU-Idaho
+- Pursuing a Master's Degree in Computer Science at BYU
+- [Resume](https://pgattic.github.io/pgattic/resume)
+
 ![Viewership](https://komarev.com/ghpvc/?username=pgattic)
 
-In addition to the programming languages shown above, I am well-versed in utilities like Linux and Git.
-
-I am an Eagle Scout, a former competitive gymnast, and a lifelong member of the Church of Jesus Christ of Latter-Day Saints. I graduated from the International Academy of Macomb in 2020, served a full-time mission for my church in El Salvador from 2020 to 2022, and I am currently attending BYU-Idaho, majoring in Computer Science.
-
-Learn more about me:
-
-- [GitHub Pages](https://pgattic.github.io/about-me)
-- [Resume](https://pgattic.github.io/pgattic/resume)

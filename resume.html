@@ -9,8 +9,7 @@
 :root {
   --h1-text-size: 24pt;
   --h2-text-size: 14pt;
-  --text-size: 11pt;
-  --sub-text-size: 10.5pt;
+  --text-size: 10.5pt;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
 
 * {
   font-family: "Times New Roman";
+  font-size: var(--text-size);
 }
 
 h1 {
@@ -43,8 +43,7 @@ h2 {
 }
 
 p {
-  margin: 3px 0;
-  font-size: var(--text-size);
+  margin: 4px 0 2px;
 }
 
 a {
@@ -60,7 +59,6 @@ hr {
 ul {
   margin: 0;
   padding-left: 25px;
-  font-size: var(--sub-text-size);
 }
 
 sup {
@@ -71,22 +69,14 @@ table {
   width: 100%;
   border-collapse: collapse;
   th, td {
-    font-size: var(--sub-text-size);
     text-align: left;
     vertical-align: top;
   }
 }
 
-div {
-  p {
-    font-weight: bold;
-    .date {
-      font-weight: normal;
-      font-size: var(--text-size);
-      float: right;
-      padding-left: 6px;
-    }
-  }
+.date {
+  float: right;
+  padding-left: 6px;
 }
 
     </style>
@@ -95,7 +85,7 @@ div {
   <body>
 
     <h1>Preston G. Corless</h1>
-    <p id="contact">(586) 290-8781 | <a href="mailto:pgattic@gmail.com">pgattic@gmail.com</a> | <a href="https://github.com/pgattic">github.com/pgattic</a></p>
+    <p id="contact"><a href="tel:+15862908781">(586) 290-8781</a> | <a href="mailto:pgattic@gmail.com">pgattic@gmail.com</a> | <a href="https://github.com/pgattic">github.com/pgattic</a></p>
 
     <hr>
 
@@ -103,14 +93,14 @@ div {
       <h2>Personal Projects</h2>
       <div>
         <ul>
-          <li>Ported a WebAssembly (WASM) runtime to the Nintendo DS, enabling portable code execution on legacy hardware</li>
+          <li>Adapted and optimized a modern WebAssembly (WASM) runtime to run on legacy platforms including Nintendo DS</li>
           <li>Built a command-line tool to instantly fetch scripture references, streamlining text-based study workflows</li>
-          <li>Designed a custom stack-based programming language in Rust, optimizing for low-level performance and clarity</li>
-          <li>Developed a cycle-accurate CHIP–8 emulator, replicating original hardware behavior for educational use</li>
-          <li>Led the development of a map-based social app in Flutter and Dart where users can share and find local events</li>
-          <li>Created PxStream, a novel photo file format using fractal compression for extreme image size reduction</li>
-          <li>Released a JavaScript mobile game via Apache Cordova, achieving full cross-platform deployment</li>
-          <li>Hacked and customized Super Mario Bros. with new levels and characters using 6502 assembly and binary patching</li>
+          <li>Designed a custom stack-based programming language in Rust, specializing in arbitrary precision mathematics</li>
+          <li>Developed a cycle-accurate CHIP–8 emulator, replicating original hardware behavior</li>
+          <li>Led development of a map-based social app in Flutter and Dart where users can share and find local events</li>
+          <li>Created first-ever graphics file format to support dynamic on-the-fly file compression, using fractal-based logic</li>
+          <li>Released a cross-platform JavaScript mobile game on Android and Web made with Apache Cordova</li>
+          <li>Customized Super Mario Bros. with new levels and characters using 6502 assembly and binary patching</li>
         </ul>
       </div>
     </section>
@@ -120,11 +110,11 @@ div {
     <section>
       <h2>Education</h2>
       <div>
-        <p><span class="date">Jul. 2022&ndash;Apr. 2025</span>B.S. in Computer Science | <i>Brigham Young University&ndash;Idaho</i> | 3.93 GPA</p>
+        <p><span class="date">Jul. 2022&ndash;Apr. 2025</span>B.S. in Computer Science | <i>Brigham Young University&ndash;Idaho</i> | Cum Laude (3.93 GPA)</p>
         <ul>
-          <li>Co-founded and served as President of BYU&ndash;Idaho's Computing Society, helped bring attendance up to 200+ people</li>
-          <li>Returned to the Computing Society three times to speak about finding internships and personal project self-motivation</li>
-          <li>Won 1<sup>st</sup> place in two hackathons; BYU&ndash;Idaho's Fall 2022 Hackathon, and a Fall 2023 <a href="https://byuihack.org/">multi-university hackathon</a> sponsored by <a href="https://mlh.io/">MLH</a>, GitHub and Verizon, among others</li>
+          <li>Co-founded and oversaw as President of BYU&ndash;Idaho's Computing Society, brought weekly attendance up to 200+ people</li>
+          <li>Returned to Computing Society three times to speak about finding internships and personal project self-motivation</li>
+          <li>Won 1<sup>st</sup> place in two hackathons; BYU&ndash;Idaho's Fall 2022 Hackathon, and a Fall 2023 <a href="https://byuihack.org/">multi-university hackathon</a> sponsored by <a href="https://mlh.io/">MLH</a>, GitHub, and Verizon, among others</li>
         </ul>
       </div>
     </section>
@@ -137,15 +127,15 @@ div {
         <p><span class="date">Jan. 2025&ndash;May 2025</span>IT Engineer Intern | <i>Church of Jesus Christ of Latter-Day Saints (ICS Department)</i></p>
         <ul>
           <li>Created a Rust program capable of verifying metadata of 47,500 files per second, reducing system checkup time by 95%</li>
-          <li>Solved years-old Terraform automation issues regarding JSON serialization/deserialization</li>
-          <li>Converted 4 Apache Tomcat servers into portable Docker containers, facilitating migration from legacy system</li>
+          <li>Solved years-old Terraform automation issues and edge cases regarding JSON serialization</li>
+          <li>Converted and deployed 4 Apache Tomcat servers as portable Docker containers, facilitating migration from legacy system</li>
         </ul>
       </div>
       <div>
         <p><span class="date">Jan. 2024&ndash;Apr. 2025</span>Paid Student Peer Advisor | <i>Brigham Young University-Idaho</i> | Rexburg, Idaho</p>
         <ul>
-          <li>Helped dozens of students bolster their resumes and portfolios, and gave invaluable networking advice and assistance</li>
-          <li>Recommended 2 students to recruiters, getting them their first internships</li>
+          <li>Advised dozens of students on resume and portfolio development; provided strategic networking guidance and support</li>
+          <li>Facilitated first internships for 2 students through recruiter referrals</li>
         </ul>
       </div>
       <!-- <div> -->
@@ -160,15 +150,15 @@ div {
         <ul>
           <li>Increased contacting productivity for application end-user base of over 50,000 by 15% by introducing and implementing new WhatsApp-related features, leveraging WhatsApp's public APIs</li>
           <li>Identified and corrected errors in Spanish localization of application</li>
-          <li>Added or changed 10,017 lines of code in application codebase in the span of approximately 3 months</li>
-          <li>Worked with Android Studio, Jetpack Compose, Git, and Kotlin in a professional environment</li>
+          <li>Added or changed 10,017 lines of code in application codebase in span of approximately 3 months</li>
+          <li>Applied Android Studio, Jetpack Compose, Git, and Kotlin in a professional environment</li>
         </ul>
       </div>
       <div>
         <p><span class="date">Jul. 2020&ndash;Jun. 2022</span>Missionary | <i>Church of Jesus Christ of Latter-Day Saints</i> | El Salvador</p>
         <ul>
           <li>Gained fluency in Spanish Language, and became immersed in Salvadoran culture</li>
-          <li>Worked 74 hours weekly with 11 other missionaries throughout mission; coordinated and worked with 50+ more</li>
+          <li>Collaborated 74 hours weekly with 11 other missionaries throughout mission and coordinated with 50+ more</li>
           <li>Served hundreds of people through proselyting and service projects</li>
           <li>Spoke on multiple occasions to groups of 100+ people</li>
         </ul>
@@ -222,7 +212,7 @@ div {
         </tr>
         <tr>
           <td>Development Environments:</td>
-          <td>Android Studio, Arduino, Eclipse, JetBrains Rider, Vim, VS Code</td>
+          <td>Android Studio, Arduino, Eclipse, JetBrains Rider, Vim/Neovim, Visual Studio Code</td>
         </tr>
         <tr>
           <td>Web Technologies:</td>
@@ -230,7 +220,7 @@ div {
         </tr>
         <tr>
           <td>Other Technologies:</td>
-          <td>Command Line, Docker, Flutter, Git, Jetpack Compose, Linux, Unix</td>
+          <td>Command Line, Docker, Flutter, Git, Jetpack Compose, Linux, Unix, WebAssembly (WASM)</td>
         </tr>
         <tr>
           <td>Spoken Languages:</td>
